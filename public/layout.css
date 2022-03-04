@@ -1,0 +1,55 @@
+    body {
+        background-color: pink;
+    }
+    
+    #layLeft: {
+        min: height 300px;
+    }
+    
+    #layRight: {
+        min: height 300px;
+    }
+    
+    #layLeft {
+        width: 30%;
+        float: left;
+        background-color: #d7e0b6;
+    }
+    
+    #layRight {
+        width: 70%;
+        float: right;
+        background-color: #82a6d9;
+    }
+    
+    #boxTitle {
+        border: solid 1px black;
+        padding: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    #boxContent {
+        border: solid 1px black;
+        border-top: none;
+        padding: 5px;
+    }
+    
+    #sayHi {
+        text-align: right;
+        border: solid 1px black;
+        padding: 3px;
+    }
+    
+    #listMessage {
+        background-color: #dfe7f2;
+        margin-bottom: 15px;
+    }
+    
+    #txtText {
+        background-color: #82a6d9;
+    }
+    
+    #txtMessage {
+        border: solid 1px black;
+    }

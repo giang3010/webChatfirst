@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Chat</title>
+    <script src="jquery.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="xuly.js"></script>
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="loginForm">
+            <h3>Tên của bạn:</h3>
+            <input type="text" id="txtUsername">
+            <input type="button" value="Xác nhận" id="btnConfirm">
+        </div>
+        <div id="chatForm">
+            <div id="layLeft">
+                <div id="boxTitle">Đang trực tuyến</div>
+                <div id="boxContent">
+                </div>
+            </div>
+            <div id="layRight">
+                <div id="sayHi">
+                    Xin chào: <span id="currentUser"></span>
+                    <input type="button" id="btnLogout" value="Đăng xuất">
+                </div>
+                <div id="listMessage">
+                </div>
+                <div id="txtText">
+                    <div id="typing"></div>
+                    <input type="text" id="txtMessage">
+                    <input type="button" id="btnMessage" value="Gửi">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
